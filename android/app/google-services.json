@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "693995814319",
+    "project_id": "fir-demo-a8300",
+    "storage_bucket": "fir-demo-a8300.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:693995814319:android:e69b2539ce49a8ac5d835a",
+        "android_client_info": {
+          "package_name": "com.example.project1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "693995814319-hviq3ihgerpbbp08t93rq4pdbl9kv407.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOSH7bx1hwttrhJZlw1ihaXJMd0hGNOYU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "693995814319-hviq3ihgerpbbp08t93rq4pdbl9kv407.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
