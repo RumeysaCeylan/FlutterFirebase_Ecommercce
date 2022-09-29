@@ -10,7 +10,6 @@ import 'dart:core';
 import 'package:project1/Screens/ProfileUpdate.dart';
 import 'package:project1/Screens/ShowListPage.dart';
 import 'package:project1/Screens/Welcome.dart';
-import 'package:project1/Services/TaskService.dart';
 import 'package:project1/Services/auth.dart';
 
 class ProfilePage extends StatefulWidget {
@@ -125,10 +124,6 @@ class NavigationDrawer extends StatelessWidget {
             SizedBox(
               height: 12,
             ),
-            Text(
-              "user" + " " + "lastname",
-              style: TextStyle(fontSize: 28, color: Colors.white),
-            )
           ],
         ),
       );

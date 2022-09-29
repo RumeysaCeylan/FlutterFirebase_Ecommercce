@@ -10,7 +10,6 @@ import 'dart:core';
 import 'package:project1/Screens/ProfileUpdate.dart';
 import 'package:project1/Screens/ShowListPage.dart';
 import 'package:project1/Screens/Welcome.dart';
-import 'package:project1/Services/TaskService.dart';
 import 'package:project1/Services/auth.dart';
 
 class ProfilePage extends StatefulWidget {

@@ -1,12 +1,10 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:fluttertoast/fluttertoast.dart';
-import 'package:project1/Services/StorageService.dart';
 
 class AuthService {
   final FirebaseAuth _auth = FirebaseAuth.instance;
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-
   Future<User?> login(String email, String password) async {
     var user = await _auth
         .signInWithEmailAndPassword(email: email, password: password)
@@ -24,12 +22,6 @@ class AuthService {
     return user.user;
   }
 
-  //çıkış
-  signout() async {
-    return await _auth.signOut();
-  }
-
-  //register
   Future<User?> signup(
       String firstName, String lastName, String email, String password) async {
     var user = await _auth
@@ -53,7 +45,11 @@ class AuthService {
     } else {
       Fluttertoast.showToast(msg: "cannot be empty");
     }
-
     return user.user;
+  }
+
+  //çıkış
+  signout() async {
+    return await _auth.signOut();
   }
 }

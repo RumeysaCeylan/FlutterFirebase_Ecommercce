@@ -192,10 +192,6 @@ class NavigationDrawer extends StatelessWidget {
             SizedBox(
               height: 12,
             ),
-            Text(
-              "user" + " " + "lastname",
-              style: TextStyle(fontSize: 28, color: Colors.white),
-            )
           ],
         ),
       );
