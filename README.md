@@ -28,7 +28,7 @@ http-server . -p 8000
   <br><br> User should sign up and login to the app<br><br>
   <img src="https://user-images.githubusercontent.com/59581456/188727858-27ddb904-f5df-4e1a-b8cb-5f847c4970d4.png" width="200" />
   
-  <img src="https://user-images.githubusercontent.com/59581456/188727956-6afbea93-45b0-4f73-8625-37d00788586b.png" width="200" /> 
+  <!--<img src="https://user-images.githubusercontent.com/59581456/188727956-6afbea93-45b0-4f73-8625-37d00788586b.png" width="200" /> -->
   <br><br>
   <img src="https://user-images.githubusercontent.com/59581456/188727966-b998852d-215f-4298-8eb8-b85850936e45.png" width="200" />
   
